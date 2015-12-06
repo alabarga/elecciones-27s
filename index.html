@@ -1,0 +1,112 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta http-equiv="refresh" content="180">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Resultados elecciones Cataluña 2015 ‐ EL ESPAÑOL</title>
+    <meta http-equiv="Content-Language" content="es" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index,follow,noodp"/>
+    <meta name="organization" content="NOHACEFALTAPAPEL S.L."/>
+    <link rel="canonical" href="http://resultados27s.elespanol.com/"/>
+    <meta name="description" content="Consulta todos los resultados de las elecciones catalanas del 27‐S en nuestro mapa interactivo por provincia">
+    <meta itemprop="name" content="Resultados elecciones Cataluña 2015">
+    <meta itemprop="description" content="Consulta en nuestro mapa interactivo todos los resultados de las elecciones catalanas del 27‐S.">
+    <meta itemprop="image" content="apple-touch-icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@elespanolcom">
+    <meta name="twitter:title" content="Resultados elecciones Catalanas 27‐S">
+    <meta name="twitter:description" content="Consulta en nuestro mapa interactivo todos los resultados de las elecciones catalanas del 27‐S.">
+    <meta name="twitter:creator" content="@elespanolcom">
+    <meta name="twitter:image" content="apple-touch-icon.png">
+    <meta property="og:title" content="Resultados elecciones Catalanas 27‐S" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://resultados27s.elespanol.com/" />
+    <meta property="og:image" content="apple-touch-icon.png" />
+    <meta property="og:description" content="Consulta todos los resultados de las elecciones catalanas del 27‐S en nuestro mapa interactivo." />
+    <meta property="og:site_name" content="El Español" />
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+    
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">Estás usando un navegador <strong>desactualizado</strong>. Por favor, <a href="http://browsehappy.com/">actualiza tu navegador</a> para mejorar tu experiencia en el interactivo.</p>
+    <![endif]-->
+
+    <div class="container">
+        <header class="header">
+	<!--
+            <a class="pull-left hidden-xs" href="http://www.elespanol.com">
+                <img class="headerLogo" src="images/elespanol.svg">
+            </a>
+            <a class="headerLogoContainer pull-left visible-xs" href="http://www.elespanol.com">
+                <img class="headerLogo--small" src="images/elespanol-lion.svg">
+            </a>
+	-->
+            <h1 class="pageHeader u-alignCenter u-uppercaseText">Resultados 27-S</h1>
+            <span class="u-uppercaseText updatedTimestamp">28 sept. 2015, <span class="u-accentMark">01:54</span></span>
+        </header>
+        <img src="images/loading-spokes.svg" class="center-block loadingSvg u-morePaddingTop" />
+        <div class="row stacked u-hiddenStartup">
+           <div class="col-md-12">
+               <div id="stack" class="hiddenStartup stacked--big"></div>
+                <span class="markTriangle"></span>
+                <span class="markLabel">68</span>
+           </div>
+       </div>
+        <div class="row u-paddingBottom u-hiddenStartup">
+            <div class="col-md-7">
+                <div class="map">
+                    <button type="button" class="btn btn-default map-clearButton js-zoomOut" aria-label="Clear">
+                        <span class="fa fa-search-minus" aria-hidden="true"></span>
+                    </button>
+                    <div class="map-searchContainer">
+                        <i class="fa fa-search map-searchIcon"></i>
+                        <input type="text" class="form-control map-searchBar" placeholder="Busca tu municipio">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="table--bordered js-results">
+                </div>
+            </div>
+        </div>
+    </div>
+<!--
+    <footer class="footer container">
+        <div class="row">
+            <div class="col-sm-12 u-alignCenter">
+                <a href="http://www.elespanol.com"><img class="footerLogo" src="images/logo.svg"></a>
+                <div class="footerCredit">
+                    <p class="textCredit u-uppercaseText">
+                        <a class="u-textSeparator" href="http://www.elespanol.com/politica-de-privacidad/">Política&nbsp;de&nbsp;privacidad&nbsp;</a>
+                        &nbsp;<a class="u-textSeparator" href="http://www.elespanol.com/terminos-de-uso/">Términos&nbsp;de&nbsp;uso&nbsp;</a>
+                        &nbsp;<a href="http://www.elespanol.com/politica-de-cookies/">Política&nbsp;de&nbsp;cookies</a>
+                        <br /><a href="mailto:datos@elespanol.com">Contacto</a>
+                    </p>
+                    <p class="textCredit u-paddingTop"><a href="https://twitter.com/martgnz">Martín González</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+-->
+
+    <script src="./bower_components/jquery.min.js"></script>
+    <script src="./bower_components/d3.min.js"></script>
+    <script src="./bower_components/queue.min.js"></script>
+    <script src="./bower_components/topojson.js"></script>
+    <script src="./bower_components/typeahead.bundle.min.js"></script>
+    <script src="./bower_components/turf.min.js"></script>
+    <script src="./bower_components/rbush.js"></script>
+
+    <script src="./js/concat.js"></script>
+  </body>
+</html>
+
